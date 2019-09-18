@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="ACDCWebPortal.processManuscriptUsingWebortal"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ACDCWebPortal.processManuscriptUsingWebortal">
+        <methods>
+          <include name="testConfigReader"/>
+          <include name="createWebDriver"/>
+          <include name="destroy"/>
+          <include name="processManuscriptFile"/>
+          <include name="preSuite"/>
+        </methods>
+      </class> <!-- ACDCWebPortal.processManuscriptUsingWebortal -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Going to launch Chrome driver!]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20592" started-at="2019-07-25T12:07:28Z" finished-at="2019-07-25T12:07:49Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20592" started-at="2019-07-25T12:07:28Z" finished-at="2019-07-25T12:07:49Z">
+      <class name="ACDCWebPortal.processManuscriptUsingWebortal">
+        <test-method status="PASS" signature="testConfigReader()[pri:0, instance:ACDCWebPortal.processManuscriptUsingWebortal@2471cca7]" name="testConfigReader" is-config="true" duration-ms="161" started-at="2019-07-25T17:37:28Z" finished-at="2019-07-25T17:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfigReader -->
+        <test-method status="PASS" signature="createWebDriver(java.lang.String)[pri:0, instance:ACDCWebPortal.processManuscriptUsingWebortal@2471cca7]" name="createWebDriver" is-config="true" duration-ms="2469" started-at="2019-07-25T17:37:28Z" finished-at="2019-07-25T17:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Going to launch Chrome driver!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="preSuite()[pri:0, instance:ACDCWebPortal.processManuscriptUsingWebortal@2471cca7]" name="preSuite" is-config="true" duration-ms="17324" started-at="2019-07-25T17:37:30Z" finished-at="2019-07-25T17:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSuite -->
+        <test-method status="FAIL" signature="processManuscriptFile()[pri:0, instance:ACDCWebPortal.processManuscriptUsingWebortal@2471cca7]" name="processManuscriptFile" duration-ms="1" started-at="2019-07-25T17:37:48Z" finished-at="2019-07-25T17:37:48Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at utility.Utils.listFilesAndFilesSubDirectories(Utils.java:111)
+	at ACDCWebPortal.processManuscriptUsingWebortal.processManuscriptFile(processManuscriptUsingWebortal.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at ACDCWebPortal.WebPortalMain.main(WebPortalMain.java:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processManuscriptFile -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:ACDCWebPortal.processManuscriptUsingWebortal@2471cca7]" name="destroy" is-config="true" duration-ms="788" started-at="2019-07-25T17:37:48Z" finished-at="2019-07-25T17:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- ACDCWebPortal.processManuscriptUsingWebortal -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
